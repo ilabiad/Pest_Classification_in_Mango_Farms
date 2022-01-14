@@ -29,4 +29,4 @@ data preprocessing :
   ## step 4:
   predict
   
-  >> the model got 94% accuracy on the test set as well :)
+  > the model got 94% accuracy on the test set as well :)
