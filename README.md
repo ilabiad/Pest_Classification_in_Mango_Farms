@@ -16,3 +16,17 @@ data preprocessing :
   and here is what the result looks like 
   
   ![plot](./resources/processed_image.png)
+  
+  
+  ## step 2:
+  the following is very basic preparation to use flow_from_directory and prepare for training
+  
+  ## step 3:
+  first remove GPU if you have already installed cuda and it's yout default tensorflow device and it doesn't have enough memory to hold the model and the batch 
+  Then after defining the model, train the top Dense layers 
+  Following that reduce the learning rate parameter, this is very important!!! And fine tune the VGG19 weights to fit more our data
+  
+  ## step 4:
+  predict
+  
+  >> the model got 94% accuracy on the test set as well :)
