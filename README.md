@@ -27,6 +27,6 @@ data preprocessing :
   Following that reduce the learning rate parameter, this is very important!!! And fine tune the VGG19 weights to fit more our data
   
   ## step 4:
-  predict
+  predict on test set
   
-  > the model got 94% accuracy on the test set as well :)
+  > the model got 94% accuracy on the test set :)
